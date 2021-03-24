@@ -1,0 +1,11 @@
+---
+application:
+  name: "weekly-calendar-server"
+  project: "test-project"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-weekly-calendar-server"
+  routes:
+  - application_name: "weekly-calendar-server"
+    paths:
+    - "/*"
